@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="termometer.css">
+</head>
+<body>
+  <div class="container">
+    <select id="temp-diff">
+      <option>°C</option>
+      <option>°F</option>
+    </select>
+    
+    <input id="temperature-input" placeholder="Indica aici valoarea in grade °C">
+  </div>
+  <div id="termometer">
+    <div id="termometer-indicator" style="width:60px;">
+    </div>
+    <div id="termometer-digits">
+      <span>-20
+      </span><span>-10
+      </span><span>0
+      </span><span>10
+      </span><span>20
+      </span><span>30
+      </span><span>40
+      </span><span>50
+      </span>
+    </div>
+  </div>
+</body>
+<script src="termometer.js"></script>
+</html>

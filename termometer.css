@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Georgia";
+	font-size: 16px;
+	background-color: #ffeaa7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+    background-color: #fab1a0;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+
+}
+#temp-diff{
+    height: 30px;
+    font-size: 18px;
+    width: 3vw;
+    border-radius: 8px;
+    border: 1.5px solid #aaa;
+    /* position: absolute; */
+    padding-left: 5px;
+
+}
+#termometer{
+    top: 220px;
+    position: absolute;
+    justify-content: center;
+    border-radius: 3px;
+    border: 3px solid rgb(241, 240, 240);
+    background: linear-gradient(to right, #ffffff00 , #30c4f19e 1%, #f355556b);
+    color:azure;
+}
+#termometer-indicator {
+    height: 2px;
+    background: red;
+  }
+  #temperature-input{
+   
+   
+        height: 30px;
+        font-size: 14px;
+        width: 11vw;
+        border-radius: 8px;
+        border: 1.5px solid #aaa;
+
+        padding-left: 5px;
+    }
+
+  #termometer-digits{
+    font-family: monospace;
+  }
+  #termometer-digits span{
+   display:inline-block;
+    width: 29px; /*+1px border=30*/
+    border-left:1px solid rgba(47, 3, 3, 0.733);
+  }
